@@ -57,7 +57,7 @@ document.querySelector("#skip").addEventListener("click", function () {
 	console.log("Skip Ahead");
 	video.currentTime += 15;
 	video.loop = true;
-	console.log(video.currentTime);
+	console.log("Current time is " + video.currentTime);
 	video.play();
 });
 
